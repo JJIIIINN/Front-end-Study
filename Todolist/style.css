@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    margin-top: 50px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.underbar{
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+}
+.mainbox{
+    display: flex;
+    border: 0px solid black;
+    width: 540px;
+    height: 45px;
+}
+.XBtn{
+    background-color: white;
+    border-style: none;
+    font-size: 15px;
+    color: white;
+}
+.XBtn:hover{
+    color: red;
+    transition: 0.5s;
+}
+.checkbox{
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.edit{
+    margin-left: 25px;
+    margin-top: 8px;
+    width: 25px;
+    height: 30px;
+    border-style: none;
+    background-color: white;
+}
+.imoge{
+    font-size: 17px;
+}
+.head{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+.input{
+    width: 400px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 45px;
+    border-color: black;
+    border-width: 3px;
+}
+.list{
+    position: relative;
+}
+#text{
+    border: 0px solid black;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    font-size: 17px;
+    font-family: 'Black Han Sans', sans-serif;
+    word-break: break-all;
+}
+.add{
+    display: flex;
+}
+.addList{
+    position: absolute;
+    margin-left: 431px;
+    padding-top: 8px;
+}
+.addListBtn{
+    border-radius: 50%;
+    border-style: none;
+    font-size: 20px;
+    background-color: rgb(229, 227, 227);
+}
+.editinput{
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    margin-top: 37px;
+    margin-left: 70px;
+    border-radius: 8px;
+    border-color: black;
+    font-family: 'Black Han Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
