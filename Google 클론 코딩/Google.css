@@ -1,0 +1,140 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.headtext{
+    position: absolute;
+    display: flex;
+    margin-right: 50px;
+    padding-right: 45px;
+    padding-top: 4px;
+}
+.headimage{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.headmark{
+    position: absolute;
+    padding-right: 70px;
+    padding-top: 5px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: gray;
+    display: block;
+    text-decoration: none;
+}
+.mark{
+    width: 80%;
+}
+.gmail, .image{
+    font-size: 13px;
+    padding-right: 18px;
+    color: gray;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.haha{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 30px;
+    padding-left: 20px;
+}
+.mid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    border: 1px solid white;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.google{
+    width: 80%;
+}
+form{
+    width: 100%;
+}
+.text{
+    display: block;
+    border: 2px solid rgb(216, 211, 211);
+    border-radius: 50px/50px;
+    width: 600px;
+    height: 45px;
+    box-shadow: 1px 1px 1px 1px rgb(235, 235, 235);
+}
+.box{
+    padding-top: 50px;
+}
+input:focus{
+    outline: none;
+}
+.text{
+    padding-left: 60px;
+    padding-right: 95px;
+}
+.icon{
+    position: relative;
+    bottom: 61px;
+    left: 22px;
+}
+.meme{
+    position: relative;
+    left: 480px;
+    bottom: 56px;
+    height: 35px;
+}
+
+.button{
+    background-color: #efeff3;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: -10%;
+}
+.buttons{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.margin{
+    display: flex;
+    margin: 0px auto;
+}
+.title_icon_youtube{
+    height: 100px;
+    width: 100px;
+}
+.title_icon_youtube:hover{
+    background-color: rgba(189, 188, 188, 0.3);
+    border: 0;
+    border-radius: 10px 10px;
+}
+.title_icon_youtube button{
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.youtube_image{
+    width: 30px;
+    height: 30px;
+    border: 0 ;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(234, 230, 230);
+}
