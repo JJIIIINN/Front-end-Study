@@ -1,0 +1,10 @@
+.clockday{
+    font-size: 50px;
+    margin-top: 200px;
+    font-family: 'Jua', sans-serif;
+    color: grey;
+}
+.clock{
+    font-size: 100px;
+    font-family: 'Jua', sans-serif;
+}
